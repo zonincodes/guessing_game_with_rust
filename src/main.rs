@@ -17,7 +17,7 @@ fn main() {
             .expect("Failed to read line");
 
 
-        if guess.trim() ==  String::from("q"){
+        if guess.trim() == "q" {
             break;
         }
 
