@@ -1,3 +1,7 @@
+//! # Learn
+//! 'learn' Is a collection of function to handle
+//! Various learning concepts from rust lang book
+
 use std::io;
 
 fn largest<T: std::cmp::PartialOrd>(list: &[T]) -> &T {
