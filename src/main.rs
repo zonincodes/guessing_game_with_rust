@@ -1,6 +1,6 @@
 use learn::Post;
 
-fn main(){
+fn main() {
     let mut num = 5;
 
     let r1 = &num as *const i32;
@@ -9,8 +9,12 @@ fn main(){
     unsafe {
         println!("r1 is: {}", *r1);
         println!("r2 is: {}", *r2);
+        print_hello();
     }
+}
 
+unsafe fn print_hello() {
+    println!("Hello World!");
 }
 fn _oop_impl() {
     println!("Hello World!");
